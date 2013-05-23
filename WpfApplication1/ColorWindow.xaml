@@ -1,0 +1,10 @@
+﻿<Window x:Class="WpfApplication1.ColorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ColorWindow" Height="480" Width="640">
+    <StackPanel>
+        <TextBlock>請說 Up、Down、或 Take</TextBlock>
+        <TextBlock x:Name="response">語音辨識啟動中</TextBlock>
+        <Image x:Name="ColorData" MouseDown="ColorData_MouseDown"/>
+    </StackPanel>       
+</Window>
